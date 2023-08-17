@@ -1,0 +1,51 @@
+.Navbar{
+       display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 10px;
+    color: rgb(117, 115, 115);
+    height:  80px;
+    width: 100%;
+    position: fixed;
+    z-index: 9999;
+    background-color: white;
+}
+.Navbar1 p{
+    font-size: 20px;
+    color: black;
+    margin-left: 20px;
+    
+}
+.Navbar2{
+    display: flex;
+    color:black;
+    
+}
+.Navbar2 li:hover{
+    color: #9E3FFD;
+}
+.Navbar2 a{
+    text-decoration: none;
+    font-size: 10px;
+
+
+}
+.Navbar2 li{
+    list-style-type: none;
+    font-family: 'Quicksand', sans-serif;
+    color: black;
+}
+.Navbar3 button{
+    background-color:#9E3FFD;
+    border-radius: 20px;
+    color: white;
+    border: none;
+    font-size: 10px;
+    height: 30px;
+    width: 70px;
+    margin-right: 20px;
+
+}
+.Navbar3 button:hover{
+    background-color: rgb(15, 15, 60);
+}

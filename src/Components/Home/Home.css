@@ -1,0 +1,48 @@
+.Homecontent{
+    margin-top: 100px;
+  height: 100%;
+    display: flex;
+    flex-direction: column;
+    /* width: 100%; */
+    justify-content: center;
+    margin-left: 30px;
+ }
+ 
+ .Homecontent  p span{
+     font-size: 70px;
+     font-weight: bold;
+     color: rgb(15, 15, 60);
+     font-family: 'Roboto', sans-serif;
+     
+ }
+
+ .Homecontent button{
+     width: 90px;
+     height: 30px;
+     border: none;
+     border-radius: 20px;
+     background-color: #9E3FFD;
+     color: white;
+     font-size: 10px;
+ }
+ .Homecontent p{
+    color: #42097b;
+    font-family: 'Quicksand', sans-serif;
+ }
+ .Homecontent button:hover{
+     background-color: rgb(15, 15, 60);
+    
+ }
+ .Content{
+     width: 550px;
+     
+     display: flex;
+     justify-content: space-around;
+ }
+.container{
+    background-image: url('../Assets/graph.jpeg');
+    background-size: cover;
+    background-position: center center;
+    background-attachment: fixed;
+    height: 100vh;
+}

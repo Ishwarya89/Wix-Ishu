@@ -1,0 +1,14 @@
+
+.Testimonialcontainer{
+    background-color: #9E3FFD;
+    color: white;
+    text-align: center;
+    height: 250px;
+   
+}
+.Testimonials p{
+    margin: 0;
+}
+.Names p{
+    font-size: 10px;
+}

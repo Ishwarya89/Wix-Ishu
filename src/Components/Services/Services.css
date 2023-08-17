@@ -1,0 +1,56 @@
+.Serviceheading{
+   
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    font-size: 12px;
+    letter-spacing: 0.1em;
+}
+.Serviceheading p{
+    color: #9E3FFD;
+}
+.image1{
+    display: flex;
+    flex-direction: column;
+    height: 250px;
+    width: 300px;
+    align-items: center;
+}
+.images{
+    display: flex;
+    justify-content: space-evenly;
+}
+.images img{
+    width: 200px;
+}
+.images p{
+    text-align:center;
+    font-size: 10px;
+    font-family: 'Roboto', sans-serif;
+     
+}
+.Numbers{
+   
+   display: flex;
+  flex-direction: column;
+    height: 300px;
+  justify-content: center;
+    text-align:center;
+    background-color:rgb(1, 1, 54) ;
+    color: white;
+}
+.Count{
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.Count p{
+    font-size: 10px;
+}
+.Count span{
+    font-size: 35px;
+    font-weight: bold;
+}
+.Count1{
+    width: 100px;
+}

@@ -1,0 +1,124 @@
+.Contact1{
+    display: flex;
+     height: 300px;
+}
+
+
+.ContactContent{
+    width: 50%;
+    display: flex;
+     justify-content: center;
+
+}
+.Contactheading{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+}
+.Contactheading span{
+    color: #9E3FFD;
+    font-size: 12px;
+    letter-spacing: 0.1em;
+}
+.Contactheading p{
+    font-size: 20px;
+    /* font-weight:bold; */
+}
+.Contactdetails p{
+    color: rgb(134, 133, 133);
+    font-size: 10px;
+  
+}
+.FormNames{
+    display: flex;
+    flex-direction: column;
+}
+.ContactIcon{
+    display: flex;
+    
+}
+.linkedin{
+    margin-right: 10px;
+}
+.facebook{
+    margin-right: 10px;
+}
+.ContactForm{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 35px;
+  
+/* margin-top: 40px; */
+}
+
+.Contact2{
+    display: flex;
+    justify-content: space-between;
+}
+.ContactForm p{
+    font-size: 8px;
+    color: rgb(134, 133, 133);
+}
+.firstname input{
+    border: none;
+    border-bottom: solid 1px black;
+}
+.ContactForm input:hover{
+    border-bottom: solid 1.3px #9E3FFD;
+ 
+}
+.firstname{
+    display: flex;
+    flex-direction: column;
+}
+.FormNames{
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+}
+.email input{
+    border: none;
+    border-bottom: solid 1px black;
+    width:350px;
+}
+.email input:hover{
+    border-bottom: solid 1.3px #9E3FFD;
+ 
+}
+.email{
+    display: flex;
+    flex-direction: column;
+}
+.message {
+    display: flex;
+    flex-direction: column;
+}
+.message input{
+    margin-top: 30px;
+    border: none;
+    border-bottom: solid 1px black;
+    width:350px;
+}
+.message  input:hover{
+    border-bottom: solid 1.3px #9E3FFD;
+ 
+}
+.submitbutton button{
+    border: none;
+    border-radius: 20px;
+    background-color: #9E3FFD;
+    color: white;
+    width: 110px;
+    height: 30px;
+    margin-top: 20px;
+    
+}
+.submitbutton button:hover{
+    background-color: black;
+}
+.Map iframe{
+width: 99.7%;
+height: 50%;
+}

@@ -1,0 +1,44 @@
+.About{
+    display: flex;
+   
+}
+.Aboutheading1 span{
+    color: #9E3FFD;
+    font-size: 12px;
+    letter-spacing: 0.1em;
+}
+.Aboutheading1 p{
+    font-size: 36px;
+    font-weight:bold;
+}
+.Aboutpara{
+    
+    
+        /* letter-spacing:0.1em; */
+    line-height: 20px;
+   
+    color: rgb(69, 72, 75);
+    font-size: 10px;
+}
+.Aboutimg {
+    width: 50%;
+}
+
+.AboutContent{
+    font-family: 'Sono', sans-serif;
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.content{
+   width: 50%;
+   
+}
+.Aboutimg{
+    background-image: url('../Assets/aboutbg.webp');
+    /* background-size:50%; */
+    background-position: center center;
+    background-attachment: fixed;
+    /* height: 100vh; */
+}
